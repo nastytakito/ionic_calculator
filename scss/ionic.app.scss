@@ -21,3 +21,25 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+.resultInput{
+  font-size: 36px !important;
+  text-align: right !important;
+  width: 100%;
+  line-height: 36px !important;
+  height: 54px !important;
+  padding: 10px !important;
+}
+
+.main-container{
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  height: 100%;
+}
+
+.main-container > .row {
+  -webkit-flex: 2;
+  padding: 0px !important;
+}
+.main-container > .inputRow {
+  -webkit-flex: 1 !important;
+}
